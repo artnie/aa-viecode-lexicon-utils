@@ -11,14 +11,13 @@
 // ==/UserScript==
 
 /*
-    Adjust the @require paths to match your machine's path to the respective files.
-    
     Usage:
     - Download JZip. 
-    - Register the functions with TamperMonkey and change the @require path, as well as the @match URL to your lexicon.
+    - Register the functions with TamperMonkey and change the @require path to your machine's path,
+        as well as the @match URL to your lexicon.
     - Go to a VieCode Lexicon page, listing all (or a subset) of the lexicon entries.
     - In your browser dev-console run 'downloadAsZip()' to download all enries compressed in a .zip.
-    - Or run 'getEntriesFromOverview()' if you only want to see what entries are extracted, and how they're structured.
+    - Or run 'getEntriesFromOverview()' if you only want to see which entries are extracted, and how they're structured.
     
     Tested with VieCode Lexicon 5.1 on Woltlab Forum 3
 */

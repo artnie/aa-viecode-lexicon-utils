@@ -14,9 +14,9 @@
     Adjust the @require paths to match your machine's path to the respective files.
     
     Usage:
+    - Download JZip. 
+    - Register the functions with TamperMonkey and change the @require path, as well as the @match URL to your lexicon.
     - Go to a VieCode Lexicon page, listing all (or a subset) of the lexicon entries.
-    - Register the function either by copy-pasting this file's conent into your brower console, 
-        or with TamperMonkey, or whatever tool you like.
     - In your browser dev-console run 'downloadAsZip()' to download all enries compressed in a .zip.
     - Or run 'getEntriesFromOverview()' if you only want to see what entries are extracted, and how they're structured.
     

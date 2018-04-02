@@ -8,8 +8,18 @@
 // @grant        none
 // @require      file://C:\Users\arthu\Downloads\Stuk-jszip-v3.1.5-1-g9fb481a\Stuk-jszip-9fb481a\dist\jszip.js
 // @require      file://C:\Users\arthu\Downloads\Stuk-jszip-v3.1.5-1-g9fb481a\Stuk-jszip-9fb481a\vendor\FileSaver.js
-
 // ==/UserScript==
+
+/*
+    Adjust the @require paths to match your machine's path to the respective files.
+    
+    Usage:
+    - Got to a Viecode Lexicon page, listing all or a subset of the lexicon entries.
+    - Register the function either by copy-pasting this file's conent into your brower console, 
+        or with TamperMonkey, or whatever tool you like.
+    - In your browser dev-console run 'downloadAsZip()' to download all enries compressed in a .zip.
+    - Or run 'getEntriesFromOverview()' if you only want to see what entries are extracted, and how they're structured.
+*/
 
 getEntriesFromOverview = function () {
     var entriesList = $(".lexiconIndexEntryList .lexiconEntryLink").toArray().map(function(link){return link.href;});

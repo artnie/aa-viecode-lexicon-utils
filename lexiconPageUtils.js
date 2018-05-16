@@ -2,7 +2,7 @@
 // @name         AA Lexicon Utils
 // @namespace    https://bibliothek.aventurische-allianz.de/entry/*
 // @version      0.1
-// @description  Some utils functions when traversing the VieCode lexicon
+// @description  Some util functions for the VieCode lexicon.
 // @author       Arthur Niedzwiecki
 // @match        https://bibliothek.aventurische-allianz.de/entry/*
 // @grant        none

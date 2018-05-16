@@ -14,7 +14,8 @@
 document.onkeydown = function(e) {
     if (!($('textarea')[0] === $(document.activeElement)[0]))
     {
-        switch (e.keyCode) {
+        switch (e.keyCode)
+        {
             case 37:
                 var prev = $('.lexiconPreviousEntryButton a')[0];
                 if (prev) prev.click();

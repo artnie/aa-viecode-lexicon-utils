@@ -13,6 +13,7 @@
 */
 document.onkeydown = function(e) {
     if (!($('textarea')[0] === $(document.activeElement)[0]))
+    // Record arrow keys, unless focus is in a text field
     {
         switch (e.keyCode)
         {
